@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_circular"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linear"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Cryptocurrency symbol"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:id="@+id/symbol"
+                android:layout_height="wrap_content"
+                android:text="Cryptocurrency symbol"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Rank"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:id="@+id/rank"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Cryptocurrency symbol"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Name"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:id="@+id/priceusd"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="priceUSD"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="ChangePercent in last 24 hours"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp"
+                android:id="@+id/changepercent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Cryptocurrency symbol"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aa"
+            android:id="@+id/text"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
